@@ -20,4 +20,4 @@ lines(df$datetime, df$Sub_metering_3, col = "blue")
 legend("topright", legend = c("Sub_metering_1", "Sub_metering_2","Sub_metering_3"), bty = "n", 
        col = c("black", "red", "blue"), lty = "solid")
 plot(df$datetime, df$Global_reactive_power, type = "l", xlab = "datetime", ylab = "Global Reactive Power")
-dev.off()
+dev.off() 
